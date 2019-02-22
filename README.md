@@ -34,9 +34,7 @@ PropTypes are used for type checking specific data being passed down to a child 
 
 - [x] Describe a life-cycle event in React?
 
-When developing components in React, every component goes through a lifecycle of phases: mounting, updating, & unmounting. The React API gives us access to a handful of meethods that allow us to tap into this lifecycle and control when things happen during this lifecycle.
-
-React
+When developing components in React, every component goes through a lifecycle of phases: mounting, updating, & unmounting. The React API gives us access to a handful of methods that allow us to tap into this lifecycle and control when things happen during this lifecycle.
 
 - [x] Explain the details of a Higher Order Component?
 
