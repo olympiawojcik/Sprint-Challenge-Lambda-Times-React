@@ -28,10 +28,23 @@ Look through the application code. If you have the old Lambda Times (Applied Jav
 
 ## Self-Study/Essay Questions
 
-- [ ] What are PropTypes used for? Please describe why it's important to type check our data in JavaScript.
-- [ ] Describe a life-cycle event in React?
-- [ ] Explain the details of a Higher Order Component?
-- [ ] What are three different ways to style components in React? Explain some of the benefits of each.
+- [x] What are PropTypes used for? Please describe why it's important to type check our data in JavaScript.
+
+PropTypes are used for type checking specific data being passed down to a child component. This is important because it ensures data that we are passing via props from parent to child has been validated and its the type of data we are expecting - i.e. if we are expecting a string, we get a string.
+
+- [x] Describe a life-cycle event in React?
+
+When developing components in React, every component goes through a lifecycle of phases: mounting, updating, & unmounting. The React API gives us access to a handful of meethods that allow us to tap into this lifecycle and control when things happen during this lifecycle.
+
+React
+
+- [x] Explain the details of a Higher Order Component?
+
+A HOC does two things: conditionally renders protected screen to the content and extends shared functionality between components. By using an HOC, we can render one component or another conditionally based on a test, such as logging in.
+
+- [x] What are three different ways to style components in React? Explain some of the benefits of each.
+
+Three different ways to style a component in React are React Bootstrap, styled components, and a pre-processor like Sass. The benefits for Bootstrap are that they've already done the work of creating components and providing you with options for styling. Styled components, however, allow you style right inside your JavaScript file so you always know where to find your styles and it ensures styles don't bleed into other components. Finally, a pre-processor lets you write cleaner, nested code while allowing you to use variables and mixins.
 
 ## Project Setup
 
