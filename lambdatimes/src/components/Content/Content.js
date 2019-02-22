@@ -13,7 +13,8 @@ export default class Content extends Component {
       selected: "all",
       tabs: [],
       cards: [],
-      filteredCards: []
+      filteredCards: [],
+      tabClass: "tab"
     };
   }
 
@@ -58,7 +59,12 @@ export default class Content extends Component {
           `selectedTab` that includes the currently selected tab
           and `selectTabHandler` that includes the function to change the selected tab
         */}
-        <Tabs tabs={this.state.tabs} changeSelected={this.changeSelected} />
+        <Tabs
+          tabClass={this.state.tabClass}
+          selected={this.state.selected}
+          tabs={this.state.tabs}
+          changeSelected={this.changeSelected}
+        />
         <Cards
           cards={
             this.state.filteredCards.length > 0
