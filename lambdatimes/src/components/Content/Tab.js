@@ -8,7 +8,6 @@ const Tab = props => {
       if it is not it should just be 'tab'*/
 
   const isActive = props.tab === props.selected;
-  console.log(isActive);
 
   return (
     <div
